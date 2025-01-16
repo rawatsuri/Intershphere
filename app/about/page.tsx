@@ -12,12 +12,12 @@ export default function About() {
         </div>
         <div className="max-w-7xl mx-auto px-4 relative">
           <div className="text-center">
-            <GooeyText
+            {/* <GooeyText
               texts={["About Us", "Our Story", "Who We Are"]}
               morphTime={3}
               cooldownTime={2}
               className="text-6xl font-bold text-white mb-6"
-            />
+            /> */}
             <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
               We are a passionate team of digital marketing experts dedicated to transforming businesses through innovative solutions and data-driven strategies.
             </p>

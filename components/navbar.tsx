@@ -18,7 +18,7 @@ export function Navbar() {
             </Link>
           </div>
 
-          <nav className="flex-1 flex justify-center">
+          {/* <nav className="flex-1 flex justify-center">
             <ul className="flex items-center space-x-8">
               <li>
                 <Link
@@ -61,7 +61,7 @@ export function Navbar() {
                 </Link>
               </li>
             </ul>
-          </nav>
+          </nav> */}
 
           <div className="flex items-center">
             {/* Placeholder for potential future elements like theme switcher */}

@@ -34,21 +34,13 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute inset-0 blur-3xl bg-white/20 rounded-full transform -rotate-6" />
                 <div className="relative flex flex-col items-center">
-                  {/* <div className="w-32 h-32 mb-8 relative opacity-50">
-                    <Image
-                      src="/logo.jpeg"
-                      alt="Intersphere Logo"
-                      fill
-                      className="object-contain rounded-xl "
-                    />
-                  </div> */}
-                  <GooeyText
+                  {/* <GooeyText
                     texts={["INTERSPHERE", "MARKETING", "EXCELLENCE", "FUTURE"]}
                     morphTime={2}
                     cooldownTime={1.5}
                     className="text-7xl md:text-9xl font-bold mb-6 text-white"
                     textClassName="text-white"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
@@ -137,8 +129,8 @@ export default function Home() {
                 </h2>
               </div>
               <p className="text-gray-600 text-lg leading-relaxed">
-                At Intersphere Marketing, we're committed to transforming your business's digital presence with tailored solutions. 
-                Our mission is to empower businesses at every stage of growth by offering accessible and effective marketing strategies. 
+                At Intersphere Marketing, we're committed to transforming your business's digital presence with tailored solutions.
+                Our mission is to empower businesses at every stage of growth by offering accessible and effective marketing strategies.
                 With our team's expertise in SEO, advertising, and content creation, we provide the tools you need to stand out in today's competitive digital landscape.
               </p>
               <div className="grid grid-cols-2 gap-6">
@@ -167,13 +159,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:2rem_2rem]" />
         <div className="max-w-7xl mx-auto px-4 relative">
           <div className="text-center mb-20">
-            <GooeyText
+            {/* <GooeyText
               texts={["Our Services", "What We Do", "Solutions"]}
               morphTime={3}
               cooldownTime={2}
               className="text-5xl font-bold text-white mb-4"
               textClassName="text-white"
-            />
+            /> */}
             <p className="text-gray-400 text-xl mt-6">Comprehensive digital marketing solutions tailored to your success</p>
             <div className="w-20 h-1 bg-gradient-to-r from-white via-white/50 to-transparent mx-auto mt-8" />
           </div>
@@ -250,13 +242,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:2rem_2rem]" />
         <div className="max-w-7xl mx-auto px-4 relative">
           <div className="text-center mb-20">
-            <GooeyText
+            {/* <GooeyText
               texts={["Pricing Plans", "Choose Your Plan", "Get Started"]}
               morphTime={3}
               cooldownTime={2}
               className="text-5xl font-bold text-white mb-4"
               textClassName="text-white"
-            />
+            /> */}
             <p className="text-gray-400 text-xl mt-6">Choose the perfect plan for your business growth</p>
             <div className="w-20 h-1 bg-gradient-to-r from-white via-white/50 to-transparent mx-auto mt-8" />
           </div>
@@ -315,14 +307,14 @@ export default function Home() {
       <section className="py-32 bg-white relative" id="contact">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-20">
-            <GooeyText
+            {/* <GooeyText
               texts={["Contact Us", "Get in Touch", "Start Project"]}
               morphTime={3}
               cooldownTime={2}
               className="text-5xl font-bold mb-4"
               textClassName="bg-gradient-to-r from-black to-gray-800 bg-clip-text text-transparent"
-            />
-            <p className="text-gray-600 text-xl mt-6">Let's create something amazing together</p>
+            /> */}
+            <p className="text-gray-600 text-xl mt-6">Let&apos;s create something amazing together</p>
             <div className="w-20 h-1 bg-gradient-to-r from-black via-black/50 to-transparent mx-auto mt-8" />
           </div>
 
@@ -436,9 +428,9 @@ export default function Home() {
                 const name = formData.get('name');
                 const email = formData.get('email');
                 const message = formData.get('message');
-                
+
                 const mailtoLink = `mailto:interspheremarketing.inc@gmail.com?subject=Contact Form Submission from ${name}&body=Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${message}`;
-                
+
                 window.location.href = mailtoLink;
               }}>
                 <div className="space-y-2">
